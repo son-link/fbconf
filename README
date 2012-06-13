@@ -1,0 +1,17 @@
+FBConf
+(c) 2012 Alfonso Saavedra "Son Link" <sonlink.dourden@gmail.com>
+http://sonlinkblog.blogspot.com
+
+fbconf es un proyecto que trata de crear una interfaz de configuración para el gestor de ventanas Fluxbox (http://www.fluxbox.org) similar el proporcionado por Openbox (obconf)
+La idea surgió tras pensar en como unificar las opciones de Fluxbox sin tener que estar navegando entre tatos sub-menús
+y así facilitar, sobre todo a los recién llegados, una herramienta que les facilite la configuración de este gran gestor de ventanas.
+
+Entre otros se puede hacer lo siguiente:
+	* Configurar las opciones de los distintos elementos del gestor (ventanas, barra de herramientas, slit y menú)
+	* Agregar o quitar programas que se ejecuten al inicio de la sesión.
+	* Definir cuantos escritorios virtuales tendremos y sus nombres.
+	* etc.
+
+Ademas podría contar con otras herramientas como configurar los atajos de teclado, sustituyendo así al abandonado fluxkeys.
+
+El programa estará programado enteramente en Python y hara uso del toolkit GTK2
